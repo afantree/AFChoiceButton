@@ -17,4 +17,4 @@ Follow and contact me on [http://blog.afantree.com](http://blog.afantree.com)
 
 ## License
 
-AFNetworking is available under the MIT license. See the LICENSE file for more info.
+AFChoiceButton is available under the MIT license. See the LICENSE file for more info.
