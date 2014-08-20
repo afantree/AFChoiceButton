@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1416531D19A440AD00E99E16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1416531C19A440AD00E99E16 /* Foundation.framework */; };
+		1416532B19A440AD00E99E16 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1416532A19A440AD00E99E16 /* XCTest.framework */; };
+		1416532C19A440AD00E99E16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1416531C19A440AD00E99E16 /* Foundation.framework */; };
+		1416532E19A440AD00E99E16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1416532D19A440AD00E99E16 /* UIKit.framework */; };
+		1416533119A440AD00E99E16 /* libAFChoiceButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1416531919A440AD00E99E16 /* libAFChoiceButton.a */; };
+		1416533719A440AD00E99E16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1416533519A440AD00E99E16 /* InfoPlist.strings */; };
+		1416533919A440AD00E99E16 /* AFChoiceButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416533819A440AD00E99E16 /* AFChoiceButtonTests.m */; };
+		1416538519A4414200E99E16 /* AFChoiceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416538419A4414200E99E16 /* AFChoiceButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1416532F19A440AD00E99E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1416531119A440AD00E99E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1416531819A440AD00E99E16;
+			remoteInfo = AFChoiceButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1416531719A440AD00E99E16 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1416531919A440AD00E99E16 /* libAFChoiceButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFChoiceButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1416531C19A440AD00E99E16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1416532019A440AD00E99E16 /* AFChoiceButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFChoiceButton-Prefix.pch"; sourceTree = "<group>"; };
+		1416532919A440AD00E99E16 /* AFChoiceButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFChoiceButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1416532A19A440AD00E99E16 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1416532D19A440AD00E99E16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1416533419A440AD00E99E16 /* AFChoiceButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFChoiceButtonTests-Info.plist"; sourceTree = "<group>"; };
+		1416533619A440AD00E99E16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1416533819A440AD00E99E16 /* AFChoiceButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFChoiceButtonTests.m; sourceTree = "<group>"; };
+		1416538319A4414200E99E16 /* AFChoiceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFChoiceButton.h; path = Classes/AFChoiceButton.h; sourceTree = SOURCE_ROOT; };
+		1416538419A4414200E99E16 /* AFChoiceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFChoiceButton.m; path = Classes/AFChoiceButton.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1416531619A440AD00E99E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1416531D19A440AD00E99E16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1416532619A440AD00E99E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1416532B19A440AD00E99E16 /* XCTest.framework in Frameworks */,
+				1416532E19A440AD00E99E16 /* UIKit.framework in Frameworks */,
+				1416532C19A440AD00E99E16 /* Foundation.framework in Frameworks */,
+				1416533119A440AD00E99E16 /* libAFChoiceButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1416531019A440AD00E99E16 = {
+			isa = PBXGroup;
+			children = (
+				1416531E19A440AD00E99E16 /* AFChoiceButton */,
+				1416533219A440AD00E99E16 /* AFChoiceButtonTests */,
+				1416531B19A440AD00E99E16 /* Frameworks */,
+				1416531A19A440AD00E99E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1416531A19A440AD00E99E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1416531919A440AD00E99E16 /* libAFChoiceButton.a */,
+				1416532919A440AD00E99E16 /* AFChoiceButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1416531B19A440AD00E99E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1416531C19A440AD00E99E16 /* Foundation.framework */,
+				1416532A19A440AD00E99E16 /* XCTest.framework */,
+				1416532D19A440AD00E99E16 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1416531E19A440AD00E99E16 /* AFChoiceButton */ = {
+			isa = PBXGroup;
+			children = (
+				1416538319A4414200E99E16 /* AFChoiceButton.h */,
+				1416538419A4414200E99E16 /* AFChoiceButton.m */,
+				1416531F19A440AD00E99E16 /* Supporting Files */,
+			);
+			path = AFChoiceButton;
+			sourceTree = "<group>";
+		};
+		1416531F19A440AD00E99E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1416532019A440AD00E99E16 /* AFChoiceButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1416533219A440AD00E99E16 /* AFChoiceButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1416533819A440AD00E99E16 /* AFChoiceButtonTests.m */,
+				1416533319A440AD00E99E16 /* Supporting Files */,
+			);
+			path = AFChoiceButtonTests;
+			sourceTree = "<group>";
+		};
+		1416533319A440AD00E99E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1416533419A440AD00E99E16 /* AFChoiceButtonTests-Info.plist */,
+				1416533519A440AD00E99E16 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1416531819A440AD00E99E16 /* AFChoiceButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1416533C19A440AD00E99E16 /* Build configuration list for PBXNativeTarget "AFChoiceButton" */;
+			buildPhases = (
+				1416531519A440AD00E99E16 /* Sources */,
+				1416531619A440AD00E99E16 /* Frameworks */,
+				1416531719A440AD00E99E16 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFChoiceButton;
+			productName = AFChoiceButton;
+			productReference = 1416531919A440AD00E99E16 /* libAFChoiceButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1416532819A440AD00E99E16 /* AFChoiceButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1416533F19A440AD00E99E16 /* Build configuration list for PBXNativeTarget "AFChoiceButtonTests" */;
+			buildPhases = (
+				1416532519A440AD00E99E16 /* Sources */,
+				1416532619A440AD00E99E16 /* Frameworks */,
+				1416532719A440AD00E99E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1416533019A440AD00E99E16 /* PBXTargetDependency */,
+			);
+			name = AFChoiceButtonTests;
+			productName = AFChoiceButtonTests;
+			productReference = 1416532919A440AD00E99E16 /* AFChoiceButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1416531119A440AD00E99E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ManGang;
+			};
+			buildConfigurationList = 1416531419A440AD00E99E16 /* Build configuration list for PBXProject "AFChoiceButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1416531019A440AD00E99E16;
+			productRefGroup = 1416531A19A440AD00E99E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1416531819A440AD00E99E16 /* AFChoiceButton */,
+				1416532819A440AD00E99E16 /* AFChoiceButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1416532719A440AD00E99E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1416533719A440AD00E99E16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1416531519A440AD00E99E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1416538519A4414200E99E16 /* AFChoiceButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1416532519A440AD00E99E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1416533919A440AD00E99E16 /* AFChoiceButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1416533019A440AD00E99E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1416531819A440AD00E99E16 /* AFChoiceButton */;
+			targetProxy = 1416532F19A440AD00E99E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1416533519A440AD00E99E16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1416533619A440AD00E99E16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1416533A19A440AD00E99E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1416533B19A440AD00E99E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1416533D19A440AD00E99E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFChoiceButton.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFChoiceButton/AFChoiceButton-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1416533E19A440AD00E99E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFChoiceButton.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFChoiceButton/AFChoiceButton-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1416534019A440AD00E99E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFChoiceButton/AFChoiceButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFChoiceButtonTests/AFChoiceButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1416534119A440AD00E99E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFChoiceButton/AFChoiceButton-Prefix.pch";
+				INFOPLIST_FILE = "AFChoiceButtonTests/AFChoiceButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1416531419A440AD00E99E16 /* Build configuration list for PBXProject "AFChoiceButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1416533A19A440AD00E99E16 /* Debug */,
+				1416533B19A440AD00E99E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1416533C19A440AD00E99E16 /* Build configuration list for PBXNativeTarget "AFChoiceButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1416533D19A440AD00E99E16 /* Debug */,
+				1416533E19A440AD00E99E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1416533F19A440AD00E99E16 /* Build configuration list for PBXNativeTarget "AFChoiceButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1416534019A440AD00E99E16 /* Debug */,
+				1416534119A440AD00E99E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1416531119A440AD00E99E16 /* Project object */;
+}
