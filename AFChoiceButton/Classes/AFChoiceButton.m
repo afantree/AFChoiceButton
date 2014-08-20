@@ -13,7 +13,6 @@
 + (id)buttonWithFrame:(CGRect)frame andChoiceType:(AFChoiceType)choiceType withIndex:(NSUInteger)index inGroup:(NSString*)groupId withSelectedImage:(UIImage*)selectedImage andNormalImage:(UIImage*)normalImage;
 {
     AFChoiceButton* b=[[AFChoiceButton alloc] initWithChoiceType:choiceType inGroup:groupId];
-    b.choiceType=choiceType;
     b.frame=frame;
     b.index=index;
     [b setBackgroundImage:selectedImage forState:UIControlStateSelected];
@@ -25,8 +24,8 @@
 {
     self = [super init];
     if (self) {
-        self.choiceType=choiceType;
-        self.groupId=groupId;
+        _choiceType=choiceType;
+        _groupId=groupId;
         if (choiceType == AFChoiceTypeRadio) {
             [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cancelOthers:) name:groupId object:nil];
         }
