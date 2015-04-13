@@ -35,7 +35,7 @@
 
 -(void)cancelOthers:(NSNotification*)notification
 {
-    int selectedIndex=[[notification.userInfo objectForKey:@"index"] unsignedIntValue];
+    NSInteger selectedIndex=[[notification.userInfo objectForKey:@"index"] integerValue];
     if (selectedIndex != self.index) {
         self.statustype=AFChoiceButtonStatusTypeCancel;
     }

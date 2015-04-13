@@ -10,14 +10,14 @@
 
 @class AFChoiceButton;
 @protocol AFChoiceButtonDelegate;
-typedef enum {
+typedef NS_ENUM(NSInteger, AFChoiceButtonStatusType) {
     AFChoiceButtonStatusTypeCancel = 0,
     AFChoiceButtonStatusTypeSelect = 1,
-}AFChoiceButtonStatusType;
-typedef enum {
+};
+typedef NS_ENUM(NSInteger, AFChoiceType) {
     AFChoiceTypeRadio = 0,
     AFChoiceTypeCheck = 1,
-}AFChoiceType;
+};
 @interface AFChoiceButton : UIButton
 {
     NSString                     *_groupId;
