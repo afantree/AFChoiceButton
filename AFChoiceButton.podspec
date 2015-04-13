@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AFChoiceButton"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A custom Button contain check box or radio box."
 
   s.description  = <<-DESC
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/afantree/AFChoiceButton.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/afantree/AFChoiceButton.git", :tag => "0.0.2" }
   s.source_files  = "AFChoiceButton/Classes/*.{h,m}"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
